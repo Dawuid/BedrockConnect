@@ -10,10 +10,6 @@
 	// "features": {},
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
-			"enableNonRootDocker": "true",
-			"moby": "true"
-		},
 		"ghcr.io/devcontainers-contrib/features/maven-sdkman:2": {}
 	},
 
@@ -39,7 +35,6 @@
 				"gruntfuggly.todo-tree",
 				"ms-vscode.wordcount",
 				"mutantdino.resourcemonitor",
-                "ms-azuretools.vscode-docker",
 				"vscjava.vscode-java-pack"
 			]
 		}
