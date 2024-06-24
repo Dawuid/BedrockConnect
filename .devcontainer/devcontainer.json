@@ -10,7 +10,10 @@
 	// "features": {},
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/devcontainers-contrib/features/maven-sdkman:2": {}
+		"ghcr.io/devcontainers/features/java:1": {
+			"jdkDistro": "open",
+			"installMaven": "true"
+		}
 	},
 
 	// Configure tool-specific properties.
